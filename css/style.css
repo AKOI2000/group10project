@@ -57,3 +57,32 @@ h2{
 #footer p{
     color: #fff;
 }
+
+.para{
+    padding-left: 10px;
+
+}
+
+.img-div{
+    position: relative;
+    padding-left: 30px;
+}
+
+.img-div .img-1, .img-2{
+    width: 30%;
+}
+
+.img-3{
+    width: 25%;
+}
+
+#overview h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+
+}
+
+#overview{
+    margin: 10px;
+}
