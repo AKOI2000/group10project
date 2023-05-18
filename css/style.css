@@ -22,12 +22,14 @@ body {
 h1{
     font-size: 40px;
     padding-bottom: 15px;
+    color: rgb(126, 213, 111);
 
 }
 
 h2{
     font-size: 30px;
     padding-bottom: 10px;
+    color: rgb(126, 213, 111);
 }
 
 .paragraph-box{
