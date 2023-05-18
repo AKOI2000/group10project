@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1,user-scalable=no">
     <title>Trophies, Not Babies</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -13,8 +13,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Montserrat:wght@700&family=Ubuntu:wght@700&display=swap"
         rel="stylesheet">
-        <script src="https://kit.fontawesome.com/9f49353139.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9f49353139.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css2.css">
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+    <link rel="stylesheet" href="Page-1.css" media="screen">
 
 </head>
 
@@ -23,12 +25,12 @@
         <section class="title">
             <header>
                 <!--<div class="d-flex justify-content-center py-3">
-                <ul class="nav nav-pills">
-                    <li class="nav-item"><a href="" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
-                </ul>
-           </div> -->
+                    <ul class="nav nav-pills">
+                        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                    </ul>
+               </div> -->
 
                 <div class="showcase-text">
                     <h1>TROPHIES, NOT BABIES</h1>
@@ -54,26 +56,35 @@
 
 
 
-        <section id="vision" >
+        <section id="vision">
             <div class="vision-box">
                 <h2>Shared vision</h2>
-                <p>By 2019, young people aged 10 to 19 years in Lagos state feel positive and 
-                    Optimistic about their future. They understand that protecting themselves from 
-                    early pregnancy can help them reach their goals, and they have the necessary 
+                <p>By 2019, young people aged 10 to 19 years in Lagos state feel positive and
+                    Optimistic about their future. They understand that protecting themselves from
+                    early pregnancy can help them reach their goals, and they have the necessary
                     knowledge and skills to do so.
-                    </p>
+                </p>
                 <a href="vision.html" class="btn btn-white btn-curve btn-small" target="_blank">Read More</a>
             </div>
         </section>
 
-        <section id="video">
-                <center>
-                    <h2>CAMPAIGN VIDEO</h2>
-                    <video  controls>
-                        <source src="video/lv_0_20230517032423.mp4" type="video/mp4">
-                    </video>
-                </center>
-        </section>
+
+       <div class="row">
+            <div class="col-6">
+                <section id="video">
+                <video controls>
+                    <source src="video/lv_0_20230518160248.mp4" type="video/mp4">
+                </video>
+            </section>
+            </div>
+            <div class="col-6">
+                <div id="video-text">
+                    <h2>Campaign video</h2>
+                    <p>In a world full of boundless opportunities, every young person deserves the chance to fulfill their dreams, shape their future, and unlock their true potential. We stand united today, committed to ending the cycle of teenage pregnancy and empowering adolescents to make informed choices</p>
+                </div>
+
+            </div>
+       </div>
 
         <section id="newsletter">
             <div class="text-box">
@@ -82,6 +93,7 @@
                     <input type="email" name="" placeholder="Enter your Email">
                     <a class="btn btn-small btn-white" type="submit">Subscribe</a>
                 </form>
+
             </div>
 
             <div class="img-box">
@@ -89,6 +101,18 @@
                 <img src="img/Sustainable_Development_Goal_05GenderEquality.svg.png" alt="">
                 <img src="img/Sustainable_Development_Goal_10ReducedInequalities.svg.png" alt="">
             </div>
+        </section>
+
+        <section id="partner">
+            <div id="background">
+                <div class="middle">
+                    <h2>Partner || Chess in Slums Africa<img src="img/chess_logo-removebg-preview.png" alt="" style="width: 40px;"></h2>
+                    <p>Chess in the slums of Africa has become a catalyst for change, providing a glimmer of hope amidst challenging circumstances. Despite limited resources, passionate individuals and organizations have introduced the game to slum communities, offering children and youth an opportunity to develop critical thinking skills, discipline, and a sense of unity.</p>
+                    <a href="partner.html" class="btn btn-green btn-curve btn-small" target="_blank">Read More</a>
+                    
+                </div>
+            </div>
+
         </section>
     </div>
 
@@ -99,6 +123,7 @@
         <a href=""><i class="fa-brands fa-youtube"></i></a>
         <p>&copy; Copyright 2023 Group 10</p>
     </footer>
+
 
 </body>
 

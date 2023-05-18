@@ -148,7 +148,6 @@ header {
 
 /*SDGs*/
 #newsletter{
-    display: inline-block;
     background: linear-gradient(rgb(126, 213, 111), rgb(40, 180, 133));
 }
 
@@ -166,7 +165,7 @@ header {
 }
 
 input{
-    width: 20%;
+    
    padding: 5px 16px 5px 16px;
    border: solid 1px rgb(126, 213, 111);
 }
@@ -189,15 +188,28 @@ input{
     padding: 90px;
 }
 
-#video h2{
-    font-size: 40px;
-    margin-bottom: 20px;
+#video-text{
+    padding-top: 100px;
+}
+
+#video-text p{
+    text-align: left;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+#video-text h2{
+    font-size: 60px;
+    color: rgb(126, 213, 111);
+    text-transform: uppercase;
 }
 
 #video video{
-    width: 50%;
+    width: 100%;
     margin-top: 10px;
 }
+
+
 
 /* footer */
 
