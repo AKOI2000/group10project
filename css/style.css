@@ -86,3 +86,16 @@ h2{
 #overview{
     margin: 10px;
 }
+
+.bg-green{
+    background:linear-gradient(to bottom, rgb(126, 213, 111), rgb(40, 180, 133));
+    margin-right: 25px;
+    padding: 20px;
+    color: #fff;
+    width: 31%;
+}
+
+.bg-green h3{
+    font-size: 35px;
+    text-transform: uppercase;
+}
